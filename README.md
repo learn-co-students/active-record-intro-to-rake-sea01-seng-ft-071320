@@ -80,7 +80,7 @@ Rake comes with a handy command, `rake -T`, that we can run in the terminal to
 view a list of available Rake tasks and their descriptions. In order for `rake -T` to work though, we need to give our Rake tasks descriptions. Let's give our
 `hello` task a description now:
 
-```ruby
+```ruby◊
 desc 'outputs hello to the terminal'
 task :hello do
   puts "hello from Rake!"
